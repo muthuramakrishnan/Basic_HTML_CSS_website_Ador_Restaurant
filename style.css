@@ -1,0 +1,88 @@
+/*--------------------------*/
+/*General Configuration*/
+/*--------------------------*/
+html{
+    height: 100%;
+}
+body {
+    background-color: #2F3035;
+    background-image: url(/Project_1/images/background-adare-restaurant.jpg);
+    background-size: cover;/*image re-sizes acc to the screen */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+
+header {
+    /* background-color: blue; */
+    height: 118px;
+    text-align: center; /*aligns the logo image*/
+}
+
+/*gonna provide alpha transparancy*/
+nav{
+    background-color: rgba(0, 0, 0, 0.338);
+    /* height: 40px; removing the height to add padding*/
+    padding: 14px 0px;
+    text-align: center;
+}
+main{
+    /* background-color: orange; */
+    height: 400px;
+    text-align: center;/*everything inside main is centered*/
+    padding-top: 80px; /*top has 80px padding +400px actual content.  note this is not a border*/
+    padding-left: 240px;
+    padding-right: 240px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.616);
+    /* height: 100px; */
+    /* removing the height to add padding */
+}
+
+/*--------------------------*/
+/*configuring main h1 and p*/
+/*--------------------------*/
+
+h1{
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+/*--------------------------*/
+/*Styling the a tags inside nav*/
+/*--------------------------*/
+nav a {
+    text-decoration: none;
+    /*centering vertically is super hard at our current skill levl. so faking it using padding*/
+    font-size: 12px;
+    padding:0px 10px;
+}
+
+/*--------------------------*/
+/*Styling the a tags footer*/
+/*--------------------------*/
+footer p {
+    font-size: 10px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.maps {
+    padding-bottom: 10px;
+}

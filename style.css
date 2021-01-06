@@ -69,7 +69,6 @@ a{
 /*--------------------------*/
 nav a {
     text-decoration: none;
-    /*centering vertically is super hard at our current skill levl. so faking it using padding*/
     font-size: 12px;
     padding:0px 10px;
 }
